@@ -1,0 +1,18 @@
+{
+    "name": "navycoat/swiatkwiatow",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sebastian Tkaczyk",
+            "email": "sebastian.navycoat@gmail.com"
+        }
+    ],
+    "bin": ["test.php"],
+    "require": {
+        "symfony/dom-crawler": "^5.1"
+    },
+    "require-dev": {
+        "clue/phar-composer": "^1.1",
+        "phpunit/phpunit": "^9"
+    }
+}
