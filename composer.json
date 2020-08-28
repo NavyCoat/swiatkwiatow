@@ -7,9 +7,16 @@
             "email": "sebastian.navycoat@gmail.com"
         }
     ],
-    "bin": ["test.php"],
+    "autoload": {
+        "psr-4": {
+            "NavyCoat\\SwiatKwiatow\\": "src/",
+            "tests\\": "tests"
+        }
+    },
+    "bin": ["bin/app.php"],
     "require": {
-        "symfony/dom-crawler": "^5.1"
+        "symfony/dom-crawler": "^5.1",
+        "monolog/monolog": "^2.1"
     },
     "require-dev": {
         "clue/phar-composer": "^1.1",
